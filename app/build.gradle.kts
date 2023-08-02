@@ -4,6 +4,11 @@ plugins {
 }
 
 android {
+    buildFeatures {
+
+            dataBinding= true
+
+    }
     namespace = "com.example.pizzaapp"
     compileSdk = 33
 
@@ -33,6 +38,7 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+
 }
 
 dependencies {
